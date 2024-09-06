@@ -31,3 +31,5 @@ Triangle::Triangle(int a, int b, int c, int A, int B, int C, std::string name)
 		std::cout << "Ошибка создания фигуры (" << name << "). Причина: " << ex.what();
 	}
 }
+
+Triangle::Triangle(int a, int b, int c, int A, int B, int C) :Triangle(a, b, c, A, B, C, "Треугольник") {}

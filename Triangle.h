@@ -7,6 +7,6 @@ protected:
 	int a, b, c, A, B, C;
     Triangle(int a, int b, int c, int A, int B, int C, std::string name);
 public:
-	Triangle(int a, int b, int c, int A, int B, int C) :Triangle(a, b, c, A, B, C, "Треугольник") {}
+	Triangle(int a, int b, int c, int A, int B, int C);
 	void print_info() override;
 };

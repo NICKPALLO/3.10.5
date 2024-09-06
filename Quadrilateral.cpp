@@ -33,3 +33,4 @@ void Quadrilateral::print_info()
 	std::cout << name << " (стороны " << a << ", " << b << ", " << c << ", " << d << "; углы " << A << ", " << B << ", " << C << ", " << D << ") создан";
 	std::cout << std::endl;
 }
+Quadrilateral::Quadrilateral(int a, int b, int c, int d, int A, int B, int C, int D) :Quadrilateral(a, b, c, d, A, B, C, D, "Четырехугольник") {}
